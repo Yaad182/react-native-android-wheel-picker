@@ -1,0 +1,24 @@
+{
+  "name": "react-native-android-wheel-picker",
+  "version": "1.0.3",
+  "description": "iOS like wheel picker for Android",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "android",
+    "ios",
+    "picker",
+    "wheel-picker"
+  ],
+  "author": "Yaad Mohammad",
+  "license": "ISC",
+  "peerDependencies": {
+    "expo-linear-gradient": "^8.1.0"
+  },
+  "devDependencies": {
+    "metro-react-native-babel-preset": "^0.59.0"
+  }
+}
