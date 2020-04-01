@@ -46,20 +46,26 @@ export default class ExamplePicker extends Component {
 
 ## Props
 
-**enabled (boolean)**
+### enabled (boolean)
+
 If set to false, the picker will be disabled, i.e. the user will not be able to make a selection.
 
-**itemStyle (object)**
+### itemStyle (object)
+
 Style to apply to each of the item labels. Don't change the fontSize, it can mess up with the alignment.
 
-**onValueChange (function)**
+### onValueChange (function)
+
 Callback for when an item is selected.
 
-**selectedValue (any)**
+### selectedValue (any)
+
 Value matching value of one of the items.
 
-**backgroundColor (hex, rgb/rgba, common colors)**
+### backgroundColor (hex, rgb/rgba, common colors)
+
 Since Android does not support MaskedView, this was the only way to create the fade out effect. Pick the color of the background you use for the Picker. If you place the picker on a white background, pick "white".
 
-**Notes**
+### Notes
+
 Please use this Picker for Android devices only. Though it works with iOS, when you apply backgroundColor there is a weird effect that I can't seem to fix.
