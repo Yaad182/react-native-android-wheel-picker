@@ -1,4 +1,5 @@
-#react-native-android-wheel-picker
+# react-native-android-wheel-picker
+
 An iOS like wheel picker for Android with very similar syntax as the original React Native Picker.
 
 ## Installation
